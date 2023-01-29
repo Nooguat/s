@@ -25,6 +25,6 @@ func (p *Provider) Tags() []string {
 	case "zh":
 		return []string{"osint"}
 	default:
-		return []string{}
+		return []string{"galaxy"}
 	}
 }

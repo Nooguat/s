@@ -25,6 +25,6 @@ func (p *Provider) Tags() []string {
 	case "zh":
 		return []string{"forums"}
 	default:
-		return []string{"forums"}
+		return []string{"galaxy"}
 	}
 }
