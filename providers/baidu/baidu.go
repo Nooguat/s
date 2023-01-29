@@ -23,7 +23,7 @@ func (p *Provider) BuildURI(q string) string {
 func (p *Provider) Tags() []string {
 	switch providers.Language() {
 	case "zh":
-		return []string{"search"}
+		return []string{"osint"}
 	default:
 		return []string{}
 	}
